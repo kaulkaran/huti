@@ -139,7 +139,7 @@ const songs: Song[] = [
     imageUrl: "https://plus.unsplash.com/premium_photo-1676111266437-027b26837de3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1738232094/mere_dil_me_bus_gaye_shayam_japu_mai_mala_re_yuzmmb.mp3",
     lyrics: "Wo natkhat Nand kishora.......",
-    comment: ``
+    comment: `Can't get over of this song ever`
   },
   {
     id: 3,
