@@ -121,33 +121,25 @@ function AudioPlayer({ audioUrl }: AudioPlayerProps) {
 
 const songs: Song[] = [
   {
+    
     id: 1,
-    title: "Perfect",
-    artist: "Ed Sheeran",
-    imageUrl:
-      "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800&auto=format&fit=crop",
-    audioUrl:
-      "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737443343/pagalworld.com.mx-Perfect_iqtv60.mp3",
-    lyrics: `I found a love for me
-Oh darling, just dive right in and follow my lead
-Well, I found a girl, beautiful and sweet
-Oh, I never knew you were the someone waiting for me...`,
-    comment:
-      "This song reminds me of our first dance together, Bindu. Every word feels like it was written for us...",
+    title: "Sajni",
+    artist: "Jal",
+    imageUrl: "https://images.unsplash.com/photo-1546471180-335a013cb87b?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737713148/Sajni_-_Official_Video_Song_Boondh_A_Drop_of_Jal_Jal_-_The_Band_nwqpqj.mp3",
+    lyrics: "Sajni paas bulao na...",
+    comment: `Because if someone is comfortable to lie once,
+    They won't hesitate to do it twice`
   },
   {
+    
     id: 2,
-    title: "All of Me",
-    artist: "John Legend",
-    imageUrl:
-      "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=800&auto=format&fit=crop",
-    audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737694187/imtiaz252_all-of-me-john-legend-lindsey-stirling_adn9jb.mp3",
-    lyrics: `What would I do without your smart mouth?
-Drawing me in, and you kicking me out
-You've got my head spinning, no kidding
-I can't pin you down...`,
-    comment:
-      "Every time I hear this song, I think about how perfectly it describes our love story...",
+    title: "Vo bola sun meri radha",
+    artist: "Radha",
+    imageUrl: "https://plus.unsplash.com/premium_photo-1676111266437-027b26837de3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1738232094/mere_dil_me_bus_gaye_shayam_japu_mai_mala_re_yuzmmb.mp3",
+    lyrics: "Wo natkhat Nand kishora.......",
+    comment: ``
   },
   {
     id: 3,
@@ -156,7 +148,10 @@ I can't pin you down...`,
     imageUrl: "https://images.unsplash.com/photo-1602619074972-d3525c7aa1d9?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737642919/Har_Ek_Pal_-_Ashu_Shukla_Pehchan_Music_Latest_Hindi_Songs_2020_ynekvs.mp3",
     lyrics: `Hain bahut si baatein kehne ko, Dil ye hausla juta raha, Suni-suni si baatein lagti hain. Par ye mere dil ka haal hai`,
-    comment: "Bindu, every time I hear this song, it feels like it’s narrating the story of us. You’re my favorite melody. ❤️"
+    comment: `Bindu, suna hai aashiq uska
+shayar nahi hai.....❤️,
+Ab isse jyada husn ki
+badnaami kya hogi`
     },
     {
     id: 4,
@@ -168,7 +163,8 @@ I can't pin you down...`,
     Tere bin jaan meri jaaye kahin na
     Kitne zamane baad, oh, Rabba
     Yaad tu aaya, yaad tu aaya`,
-    comment: "Bindu, the lyrics remind me of how lucky I am to have you in my life. You make every day beautiful. 🌸"
+    comment: `Vo....vo ek noor hai jo mahaz chahne se nahi milti,
+Ek kali hai jo baharon mein nahi khilti 🌸`
     },
   {
     id: 5,
@@ -177,7 +173,8 @@ I can't pin you down...`,
     imageUrl: "https://images.unsplash.com/photo-1642511283397-e0bc9d502762?q=80&w=1288&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737642921/Gajendra_Verma_-_Tune_Mere_Jaana_Kabhi_Nahi_Jaana_I_Emptiness_Gajendra_Verma_Songs_Sonotek_Music_e1tpsh.mp3",
     lyrics: `Tune mere jaana, Kabhi nahi jaana`,
-    comment: "An emotional song that resonates with lost love."
+    comment: `Khubsurati lafz ka izaad tujhse hai,
+Meri har nazm ka panna abaad tujhse hai...`
     },
    {
     id: 6,
@@ -187,7 +184,8 @@ I can't pin you down...`,
     audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737642925/Tere_Jeya_Hor_Disda_-_Madhur_Sharma_Kiven_Mukhde_PearlRecords_Nusrat_Sahab_uk7wba.mp3",
     lyrics: `Teri nazron se pi hai khuda ki qasam,
     Umr saari nashay main guzar jaye gi`,
-    comment: "Every note of this song echoes the way my heart feels when I see your smile."
+    comment: `Vo ishq hai, gazal hai jise har koi nahi gaa skta,
+    Hazaro sajdon ke baad bhi koi nahi paa sakta`
     },
   {
     id: 7,
@@ -197,7 +195,8 @@ I can't pin you down...`,
     audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737642924/Tu_Itni_Khoobsurat_Hai_Full_Video_Barkhaa_Rahat_Fateh_Ali_Khan_Sara_Lorren_Amjad_Nadeem_ahxpid.mp3",
     lyrics: `Tu hi shaamil raha duaa mein meri,
     Naam tera rahaa zubaan pe meri`,
-    comment: "This track is good, but nothing compares to the rhythm of your laughter, Bindu."
+    comment: `Mai taiyyar kar lunga makaan apne dam par,
+      Tum use aakar ghar kar dena`
     },
     {
     id: 8,
@@ -207,7 +206,8 @@ I can't pin you down...`,
     audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737642928/Karan_Sehmbi__Raani_Official_Video_Rox_A_Ricky_Tru_Makers_Latest_Punjabi_Songs_2018_wtgyxt.mp3",
     lyrics: `Akhiyaan nu har pal chain ae,
     Tainu vekh vekh rajjde na nain ae`,
-    comment: "Bindu, this song is special, but it’s you who gives meaning to every word in it. 🌹"
+    comment: `Bas iss ummid me bina ruke chale jaa raha hu,
+Ki aage khada hai koi baaho me araam karane ko 🌹`
     },
     {
     id: 9,
@@ -217,7 +217,9 @@ I can't pin you down...`,
     audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737642923/Prabh_Gill_-_Jeen_Di_Gal_Feat_Raxstar_Latest_Punjabi_Songs_b9pfv1.mp3",
     lyrics: `Mainu neend na aave raatan nu,
     Mainu chain na aave raatan nu.`,
-    comment: "I could listen to this on repeat forever, just like I could stare into your eyes endlessly."
+    comment: `Ek arse se sukha pada hai, wo ek din mausam-e-kahar layegi,
+      Uss din har baarish ki bund ko gale laga nachunga, 
+  Wo ladki jis din mere seher aayegi`
     },
     {
     id: 10,
@@ -283,7 +285,10 @@ I can't pin you down...`,
     imageUrl: "https://images.unsplash.com/photo-1654502579099-ba14d34827c0?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737643408/Kitni_Haseen_Hogi_-_HIT__The_First_Case_Rajkummar_Sanya_Mithoon_Arijit_S_Sayeed_Q_Bhushan_K_blzzbv.mp3",
     lyrics : "Kitni haseen hogi woh mulaqatein...",
-    comment: "Bindu, this song feels like a memory of the love we share—timeless and perfect."
+    comment: `Mera dil tumne bhi rakha tha kabhi, ye sochkar,
+Tumhare jane ke baad apne dil par bhi inaam rakhunga,
+Likhunga ek kitaab aur jaan"
+Tumhare naam par uss kitaab ka naam rakhunga`
     },
     {
     id: 17,
@@ -301,7 +306,8 @@ I can't pin you down...`,
     imageUrl: "https://images.unsplash.com/photo-1665135194772-0329053ae5d3?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737713156/Tu_Judaa_Amrinder_Gill_-_Judda_Full_Song_YouTube.flv_SaveYouTube.com_.flv_nwcm0u.mp3",
     lyrics: "Dil judaa hoke bhi tera hi hai...",
-    comment: "Every time this plays, I remember that moment you made me feel like the luckiest person alive."
+    comment: `Mere aane par likha tha tumne apne jaane par likhna,
+Kaise tumhare bulane par mere chale aane par likhna`
     },
     {
 id: 19,
@@ -312,26 +318,19 @@ audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737713130/Pagal_O
 lyrics: "Pagal sa dil mera tera deewana...",
 comment: "If music is what feelings sound like, this song is the sound of you in my heart."
     },
+    
     {
     id: 20,
-    title: "Sajni",
-    artist: "Jal",
-    imageUrl: "https://images.unsplash.com/photo-1546471180-335a013cb87b?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737713148/Sajni_-_Official_Video_Song_Boondh_A_Drop_of_Jal_Jal_-_The_Band_nwqpqj.mp3",
-    lyrics: "Sajni paas bulao na...",
-    comment: "I could spend my entire life listening to songs like this if it means spending it with you."
-    },
-    {
-    id: 21,
     title: "Shairana Si Hai Zindagi",
     artist: "Alka Yagnik",
     imageUrl: "https://images.unsplash.com/photo-1592355591829-aaae33fcff1d?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737713181/Shairana_Si_Hai_Zindagi_Ki_Faza_-_Lyrical_Phir_Teri_Kahani_Yaad_Ayee_Alka_Yagnik_90s_Hindi_Hits_nh17zf.mp3",
     lyrics: "Shairana si hai zindagi ke rang...",
-    comment: "Bindu, you’re my forever song, playing on repeat in my heart."
+    comment: `Tum mujhe 'Vaqt' samjh kar kaat lena,
+Mai tumhe 'Jindagi' samjh ke jee lunga...`
     },
     {
-    id: 22,
+    id: 21,
     title: "Lakh Pardo Mein",
     artist: "Said Sabri, Farid Sabri",
     imageUrl: "https://plus.unsplash.com/premium_photo-1720694818685-60a176ddfedf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -340,7 +339,7 @@ comment: "If music is what feelings sound like, this song is the sound of you in
     comment: "A soulful qawwali that touches the soul."
     },
     {
-id: 23,
+id: 22,
 title: "Dua Kijiye",
 artist: "Rashid Khan, Raj Barman",
 imageUrl: "https://images.unsplash.com/photo-1569154107747-fb00e3b3430d?q=80&w=1349&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -349,7 +348,7 @@ lyrics: "Dua kijiye ke ye dil sambhale...",
 comment: "A moving song filled with emotional depth."
     },
     {
-    id: 24,
+    id: 23,
     title: "Ikko - Mikke",
     artist: "Satinder Sartaaj",
     imageUrl: "https://images.unsplash.com/photo-1498736297812-3a08021f206f?q=80&w=1179&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -358,7 +357,7 @@ comment: "A moving song filled with emotional depth."
     comment: "Bindu, this reminds me of all the little moments we’ve shared that make life so beautiful."
     },
     {
-    id: 25,
+    id: 24,
     title: "Purani Tape",
     artist: "Simiran Kaur Dhadli, Zakir",
     imageUrl: "https://images.unsplash.com/photo-1574087776137-305a55298646?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -366,26 +365,16 @@ comment: "A moving song filled with emotional depth."
     lyrics: "Purani tape sunta hoon ab bhi...",
     comment: "Nostalgic vibes that take you back in time."
     },
-    {
-    id: 26,
-    title: "52 Bars",
-    artist: "Karan Aujla, Ikky",
-    imageUrl: "https://images.unsplash.com/photo-1470049384172-927891aad5e9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737713094/52_Bars_Official_Video_Karan_Aujla_Ikky_Four_You_EP_First_Song_Latest_Punjabi_Songs_2023_fe6jdj.mp3",
-    lyrics: "52 bars, ik vaar sunke vekh...",
-    comment: "A power-packed track with bold lyrics."
-    },
-    {
-    id: 27,
-    title: "Ghana Kasoota",
-    artist: "Raftaar, Rashmeet Kaur, Surbhi Jyoti",
-    imageUrl: "https://images.unsplash.com/photo-1534673180096-30fc33d619c4?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1737713103/Ghana_Kasoota_raftaarmusic_Surbhi_Jyoti_RashmeetKaur_Avvy_Sra_Latest_Hit_Dance_Song_2021_uyq1iz.mp3",
-    lyrics: `Jab Gaam Ka Chhora Kaad Ke Taur
-    Chhori Chhori Taake Se
-    Mane Ghana Kasoota Lagge Se
-    Mane Ghana Kasuta Lagge Se`,
-    comment: "A power-packed track with bold lyrics."
+  {
+    id: 25,
+    title: "Tu Banja Gali Benaras Ki",
+    artist: "Asees Kaur",
+    imageUrl: "https://images.unsplash.com/photo-1622810820824-f233f3f2c9fe?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    audioUrl: "https://res.cloudinary.com/dw5ow19cc/video/upload/v1738230533/audio/hrxyfyrq8atwjayvluhp.mp3",
+    lyrics: `Tu banja gali banaras ki,
+Main shaam talak bhatku tujhme`,
+    comment: `Ek kashi ka ghat mile chahe sir pe na koi chhat ho,
+Gar sunu to tera naame aaye jo padhu to tera wo khat ho....`
     }
   // Additional songs can be added here
 ];
